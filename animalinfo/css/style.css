@@ -1,0 +1,267 @@
+@import url("reset.css");
+
+body {
+    background-color: #c86;
+    background-image: url("../images/brown_thrasher_background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: #fbf7ec;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+a, a:visited {
+    color: #d4a460;
+    text-decoration: none;
+}
+
+div {
+    margin: 0 auto;
+}
+
+figcaption {
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 7.5px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+hr {
+    border-bottom: 0.25px solid #a86;
+    border-width: 1px;
+    margin: 10px auto;
+    width: 85%;
+}
+
+li {
+    list-style-type: none;
+}
+
+dd {
+    margin-bottom: 7.5px;
+}
+
+p {
+    line-height: 1.35em;
+}
+
+.dark {
+    background-color: #521;
+}
+
+.info {
+    padding: 10px;
+    width: 500px;
+    float: left;
+}
+
+.light {
+    background-color: #e4e1d0;
+    color: #521;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.info-text-only {
+    width: inherit;
+}
+
+.fact-card {
+    box-shadow: 0 2px 5px 2px #320;
+    height: 100%;
+    margin: 7.5px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.thumbnail-center {
+    text-align: center;
+}
+
+.image-detail {
+    border-radius: 2px;
+    height: 178px;
+    width: 190px;
+}
+
+.sidebar-card {
+    padding: 10px 0;
+}
+
+#container {
+    display: block;
+    width: 975px;
+}
+
+#footer {
+    background-color: #521;
+    padding: 15px;
+    width: 945px;
+}
+
+#header {
+    background-image: url("../images/header_image.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+#main-content {
+    width: 720px;
+}
+
+#predator {
+    width: 120px;
+}
+
+#sidebar {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 230px;
+    text-align: center;
+}
+
+#sidebar ul {
+    text-align: left;
+    margin-left: 17.5px;
+}
+
+#layout-1 .fact-card {
+    margin-bottom: 50px;
+}
+
+#layout-1 .sidebar-card {
+    margin-bottom: 7.5px;
+}
+
+#layout-1 #header {
+    margin-top: 7.5px;
+    height: 200px;
+    width: 975px;
+}
+
+#layout-1 #header h1 {
+    margin-right: 60px;
+    float: right;
+    color: #320;
+}
+
+#layout-1 #main-content {
+    float: left;
+}
+
+#layout-1 #sidebar {
+    float: right;
+}
+
+#layout-2 .fact-card {
+    margin-bottom: 15px;
+}
+
+#layout-2 #header {
+    height: 200px;
+    width: 720px;
+    float: right;
+}
+
+#layout-2 #header h1 {
+    margin-right: 15px; 
+    float: right;
+    color: #320;
+}
+
+#layout-2 #main-content {
+    float: right;
+}
+
+#layout-2 #sidebar {
+    float: left;
+}
+
+#layout-2 .sidebar-card {
+    margin-bottom: 27px;
+}
+
+#layout-3 .fact-card {
+    margin-bottom: 20px;
+}
+
+#layout-3 #header {
+    margin-top: 7.5px;
+    height: 200px;
+    width: 975px;
+}
+
+#layout-3 #header h1 {
+    margin-right: 60px;
+    float: right;
+    color: #320;
+}
+
+#layout-3 .info {
+    min-width: 750px;
+}
+
+#layout-3 #main-content {
+    float: left;
+    width: 975px;
+}
+
+#layout-3 #sidebar {
+    width: 975px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+#layout-3 .sidebar-card {
+    float: left;
+    height: 400px;
+    width: 225px;
+    margin: 0 40px;
+}
+
+#layout-3 .fact-photo {
+    height: 360px;
+    padding-top: 50px;
+}
+
+#layout-3 #footer {
+    margin: 20px auto;
+    background-color: #e4e1d0;
+    color: #521;
+}

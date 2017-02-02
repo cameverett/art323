@@ -1,0 +1,149 @@
+@import url("reset.css");
+
+body {
+    background-color: #ddd;
+    color: #ddd;
+    font-family: 'Droid Sans', 'sans-serif';
+    font-size: 16px;
+}
+
+a, a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer, footer h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+    text-align: center;
+    line-height: 1.2em;
+}
+
+header {
+    padding: 7.5px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+hr {
+    border-bottom: 2px solid #ccc;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: disc;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+.anathema {
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container {
+    padding: 10px;
+    text-align: center;
+}
+
+.container-header {
+    text-align: left;
+}
+
+.thumbnail {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+
+#about {
+    margin: 15px auto;
+}
+
+#additional-contact-info {
+    margin-left: 20px;
+}
+
+#content-wrapper {
+    background-color: #222;
+    border-radius: 3px;
+    box-shadow: 0 5px 12px 7.5px #333;
+    margin: 20px auto;
+    max-width: 975px;
+    min-width: 680px;
+    padding: 15px;
+}
+
+#likes-and-dislikes-section {
+    background-color: #c50;
+    padding: 15px;
+}
+
+#likes-and-dislikes-section p {
+    margin: 8px;
+    text-align: center;
+}
+
+#dislikes-container {
+    display: inline-block;
+    margin: 10px;
+}
+
+#likes-container {
+    display: inline-block;
+    margin: 10px 30px 10px 10px;
+}
+
+#visit-me {
+    margin: 20px;
+    padding: 10px;
+}
+
+#visit-me h2 {
+    margin-bottom: 10px;
+}
+
+#visit-me ul {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.likes-list li {
+    text-align: left;
+}

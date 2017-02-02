@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Cameron Everett</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+
+</head>
+<body>
+	<div id="content-wrapper">
+		<header>
+			<h1>About Cameron Everett</h1>
+
+			<img class="thumbnail" alt="Cam's Avatar" src="github_avatar.jpg">
+		</header>
+		<section id="about">
+			<p>
+				<strong>Cameron Everett</strong> is an avid learner who enjoys keeping up with the latest in technology. 
+			</p>
+			<br>
+			<p>
+				He is a senior Computer Science major at Georgetown College in Georgetown, KY. At the 
+				college, he is a resident advisor, on the men's golf team, and assists with A/V in the campus' events.
+			</p>
+			<br>
+			<p>
+				He was born in Atlanta and raised in Riverdale, Georgia. His little brother and sister are twins and born
+				in the year 2000. Growing up he was always interested in electronics, following in the footsteps of his
+				father. He spent much of his time after school across Atlanta volunteering and learning at the Fernbank Science
+				Center with a thrown together group of high school robotoics enthusiasts who called themselves the Fernbank LINKSters.
+			</p>
+			<br>
+			<p>
+				However, Cam enjoyed playing mostly baseball and basketball growing up. When he turned 11 years
+				old he joined the First Tee of Atlanta where he learned to play golf, traveled, spoke, and played
+				tournament golf through high school and college.
+			</p>
+		</section>
+
+		<hr>
+
+		<section id="likes-and-dislikes-section">
+			<h2>Likes and Dislikes</h2>
+
+			<p>
+				He also enjoys time <em>away from the computer</em> playing golf, running, and picking up a good book.
+			</p>
+
+			<div class="container">
+				<div id="likes-container">
+					<h3 class="container-header">He likes:</h3>
+					<ul id="likes-list" class="likes-list"></ul>
+				</div>
+
+				<div id="dislikes-container">
+					<h3 class="container-header">He dislikes:</h3>
+					<ul id="dislikes-list" class="likes-list"></ul>
+				</div>
+			</div>
+		</section>
+
+		<hr>
+
+		<footer id="visit-me">
+			<h2>In the Clouds</h2>
+			<p>You can visit me on the web by visiting the <a href="http://caminone.com/">site</a> for his web design class. You can also get in touch by <a href="mailto:christopher_davis@georgetowncollege.edu">emailing</a> him.</p>
+
+			<ul id="additional-contact-info">
+				<li>Email: caminone@example.com</li>
+				<li>Phone: +1 555-555-5555</li>
+			</ul>
+		</footer>
+	</div>
+
+	<script>
+	var likes = ['Web Apps', 'C++', 'Vim', 'Travelling', 'Sports', 'Pizza', 'People too'];
+	var dislikes = ['Allergies', 'Bogeys', 'Fruit Flies', 'Flat Sodas', 'Not Vim', 'Emacs', 'Anti-Patterns'];
+
+	var likeListRoot = document.getElementById('likes-list');
+	var dislikeListRoot = document.getElementById('dislikes-list');
+
+	likes.map(function(like) {
+		var item = like.toString().trim();
+		if(item.length > 0) {
+			var likeItem = document.createElement("LI");
+			likeItem.innerHTML = item;
+			likeListRoot.appendChild(likeItem);
+		}
+	});
+	dislikes.map(function(dislike) {
+		var item = dislike.toString().trim();
+		if(item.length > 0) {
+			var dislikeItem = document.createElement("LI");
+			dislikeItem.innerHTML = item;
+			if(item === "Emacs") {
+				dislikeItem.className = 'anathema';
+			}
+			dislikeListRoot.appendChild(dislikeItem);
+		}
+	});
+	</script>
+</body>
+</html>
