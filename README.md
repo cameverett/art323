@@ -1,2 +1,2 @@
-# art323
-Tracking work done in Georgetown College's ART323
+# ART323
+Tracking projects done in Georgetown College's ART323
