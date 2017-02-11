@@ -44,7 +44,7 @@ fieldset {
 }
 
 fieldset legend {
-    color: #777;
+    color: #eee;
     font-size: 30px;
     padding: 0 15px;
 }
@@ -93,6 +93,11 @@ img {
     margin: 0 72px;
 }
 
+.dark {
+    background-color: #222;
+    color: #eee;
+}
+
 .light {
     background-color: #fff;
     color: #333;
@@ -123,6 +128,7 @@ img {
     width: 480px;
     height: 480px;
 }
+
 #container {
     display: block;
     width: 960px;
@@ -145,6 +151,5 @@ img {
 }
 
 #welcome {
-    padding: 10px;
-    margin: 0 25px;
+    padding: 20px 72px;
 }
