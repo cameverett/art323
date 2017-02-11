@@ -25,18 +25,38 @@ h2 {
     line-height: 1.5em;
 }
 
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
 li {
     list-style-type: none;
 }
 
-.green {
-    background-color: #3a5;
+img {
+    height: 480px;
+    width: 480px;
+}
+
+.ruddy {
+    background-color: #d90;
     color: #fff;
+}
+
+.inset {
+    padding: 30px;
+    height: 420px;
 }
 
 .light {
     background-color: #fff;
     color: #333;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .left {
@@ -51,11 +71,35 @@ li {
     width: inherit;
 }
 
+.section {
+}
+
+.half {
+    width: 480px;
+    height: 480px;
+}
+
 #container {
     display: block;
     width: 960px;
 }
 
 #header {
-    /*background-image: url('');*/
+    background-image: url('../images/lescaladegym-header-warm.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+#header h1 {
+    color: #fff;
+    font-size: 48px;
+    font-style: italic;
+    margin-left: 600px;
+    padding-top: 150px;
+}
+
+#welcome {
+    padding: 10px;
+    margin: 0 25px;
 }
