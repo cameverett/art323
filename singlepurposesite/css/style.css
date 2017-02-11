@@ -32,6 +32,22 @@ h3 {
     margin-bottom: 12px;
 }
 
+fieldset {
+    display: block;
+    border: 5px solid white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+fieldset legend {
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+input {
+    display: block;
+}
+
 li {
     list-style-type: none;
 }
@@ -41,11 +57,6 @@ img {
     width: 480px;
 }
 
-.ruddy {
-    background-color: #d90;
-    color: #fff;
-}
-
 .inset {
     margin: 0 72px;
 }
@@ -53,6 +64,11 @@ img {
 .light {
     background-color: #fff;
     color: #333;
+}
+
+.ruddy {
+    background-color: #fb5;
+    color: #fff;
 }
 
 .text-center {
@@ -71,7 +87,8 @@ img {
     width: inherit;
 }
 
-.section {
+.form-group {
+    margin-bottom: 10px;
 }
 
 .half {
