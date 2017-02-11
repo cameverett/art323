@@ -26,26 +26,52 @@ h2 {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.2em;
     margin-bottom: 12px;
 }
 
+form {
+    width: 360px;
+}
+
 fieldset {
     display: block;
-    border: 5px solid white;
+    border: 5px solid #fb5;
     border-radius: 3px;
     padding: 10px;
 }
 
 fieldset legend {
+    color: #777;
     font-size: 30px;
     padding: 0 15px;
 }
 
 input {
     display: block;
+    padding: 6px 12px 6px 12px;
+    border: 2px solid #333;
+    width: 248px;
+}
+
+.form-group {
+    margin-left: 27.5px;
+    margin-bottom: 10px;
+}
+
+.form-text {
+    color: #777;
+    font-weight: bold;
+}
+
+.form-text:focus {
+    color: #000;
+}
+
+.form-submit {
+    width: 100px;
 }
 
 li {
@@ -56,6 +82,7 @@ img {
     height: 480px;
     width: 480px;
 }
+
 
 .inset {
     margin: 0 72px;
@@ -87,15 +114,10 @@ img {
     width: inherit;
 }
 
-.form-group {
-    margin-bottom: 10px;
-}
-
 .half {
     width: 480px;
     height: 480px;
 }
-
 #container {
     display: block;
     width: 960px;
