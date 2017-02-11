@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    font-family: 'PT Sans', 'sans-serif';
+    line-height: 1.4em;
+    text-align: left;
+}
+
+div {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.7em;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.green {
+    background-color: #3a5;
+    color: #fff;
+}
+
+.light {
+    background-color: #fff;
+    color: #333;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.full-width {
+    width: inherit;
+}
+
+#container {
+    display: block;
+    width: 960px;
+}
+
+#header {
+    /*background-image: url('');*/
+}
