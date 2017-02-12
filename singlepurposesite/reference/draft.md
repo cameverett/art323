@@ -49,4 +49,14 @@ ___
 * [Chalk Bag](http://www.climbinganchors.com.au/assets/alt_1/8BMARLEY.png)
 	* [Web Site](http://www.climbinganchors.com.au/8b-plus-marley-chalkbag)
 
+### Group Outings & Family Fun
+* [Group Outings](https://www.meetup.com/en-AU/DMVBlackYoungAdultActivities/events/236456145/)
+	*[Group Photo](https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/6/0/1/1/600_457104593.jpeg)
+* [Family Fun](https://au.pinterest.com/pin/18084835980262363/)
+	*[Family Photo](https://s-media-cache-ak0.pinimg.com/564x/df/c2/20/dfc2201f84b7f8992e8317488ec31aa2.jpg)
+
+### Games & Augmented Reality
+* [Reddit Post](https://www.reddit.com/r/climbing/comments/44b4g7/augmented_climbing_wall_in_helsinki/)
+	* [Game Photo](http://i.vimeocdn.com/video/517955578_1280.jpg)
+
 #art323 #gcohac
