@@ -14,15 +14,24 @@ Ever wanted to go climbing in the city? How about to the top of the Empire State
 We love climbing and outdoor adventures. However, we don't always have the time to get out to our favorites spots. Fortunately, there are awesome indoor gyms especially fitted for climbing enthusiasts as ourselves.
 
 ### Types of Indoor Climbing
-Within each gym you can find many different styles of climbing each requiring different techniques and equipment.
+Within each gym you can find many different styles of climbing each requiring different techniques and equipment. If you want to stay low to the ground there's bouldering that requires precise placement of your hands and feet and making moves using your feet and legs far more than your hands. It's a great full body workout!
 
 * Bouldering
 * Top-Rope Climbing
 * Crack Climbing
 
+### Family Fun
+Are your kids always bouncing off the walls and about to drive you up one yourself? Here's the place you can do that and have fun with your whole family! There are challenges and puzzles for all ages and if you're not into climbing there is also a fully fitted workout area.
+
+
+### Game Night
+Challenge your friends to wacky challenges going head to head or together in cooperative game types. We like to take out a Saturday night each month to climb, relax, eat good food, and just have fun.
+
 ### Where do we do the things?
-* Red River Gorge - Hiking, Kayaking, Camping
 * L’Escalade Fitness (Lexington, KY) - Indoor Climbing and Fitness
+
+You can found us on the north side of Lexington. We like to head out to L'Escalade Fitness a few times each month as a group and we'd be glad to have you join us!
+Address: 916 N Broadway, Lexington, KY 40505
 
 ### Interested?
 * Sign Up Form (Floated Left?)
