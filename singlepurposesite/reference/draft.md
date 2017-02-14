@@ -11,7 +11,7 @@ Ever wanted to go climbing in the city? How about to the top of the Empire State
 
 
 ### About
-We love climbing and outdoor adventures. However, we don't always have the time to get out to our favorites spots. Fortunately there are awesome indoor gyms especially fitted for climbing enthusiasts as ourselves.
+We love climbing and outdoor adventures. However, we don't always have the time to get out to our favorites spots. Fortunately, there are awesome indoor gyms especially fitted for climbing enthusiasts as ourselves.
 
 ### Types of Indoor Climbing
 Within each gym you can find many different styles of climbing each requiring different techniques and equipment.

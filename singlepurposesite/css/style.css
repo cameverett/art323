@@ -1,21 +1,30 @@
 @import url("reset.css");
 
 body {
-    background-color: #fff;
+    background-color: #333;
     background-image: url('../images/les-background-napa.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'PT Sans', 'sans-serif';
     line-height: 1.4em;
     text-align: left;
 }
 
-div {
+div, footer, section {
     margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+}
+
+section h3, p {
+    text-shadow: 2px 2px 3px #533;
+    font-weight: bold;
 }
 
 h1 {
@@ -162,7 +171,7 @@ img {
     padding: 20px 72px;
 }
 
-#footer {
+footer {
     width: 960px;
     padding: 10px;
     margin-top: 15px;
