@@ -3,6 +3,9 @@
 ### Objective
 - Create a fixed-width, one page website urging visitors to do one specific thing.
 
+### Hosted Page
+- http://caminone.com/singlepurposesite
+
 ### TODOS
 - Finish ~~sketching concept~~ and choosing colors.
 - Reduce image sizes
