@@ -31,11 +31,11 @@
     * Allows users to stay in tune with the environment around them.
 
 ### About Us
-* Who are we?
-    * A group of dedicated engineers who want to improve the safety of workers in factory settings and enable them to more efficiently train and accomplish their goals each day.
+    Who are we?
+    A group of dedicated engineers who want to improve the safety of workers in factory settings and enable them to more efficiently train and accomplish their goals each day.
 
     Display this image horizontally centered below the 'Who are We' section.
     [About Us Image]('')
 
-### Contact
-* 1-555-555-5555, hello@arm.com 
+### Contact Page
+    1-555-555-5555, hello@arm.com 
