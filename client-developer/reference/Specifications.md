@@ -32,7 +32,8 @@
     A group of dedicated engineers who want to improve the safety of workers in factory settings and enable them to more efficiently train and accomplish their goals each day.
 
     Display this image horizontally centered below the 'Who are We' section.
-    [About Us Image]('')
+    [About Us Image](http://www.lynxconsultingservices.com/uploads/2/7/1/6/27160659/augmented-reality-companies.jpg?584)
+    [About Us Ref](http://www.lynxconsultingservices.com/augmented-reality.html)
 
 ### Contact Page
     1-555-555-5555, hello@arm.com 
