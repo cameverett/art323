@@ -3,7 +3,8 @@
 ## Augmented Reality & Manufacturing
 * Header
     * Background Image with 'AR&M' as the text
-    * [Link to Background Image]('')
+    * [Link to Background Image]('http://emag.directindustry.com/wp-content/uploads/sites/3/2016/07/DI22-Couv-pour-highlight.jpg')
+      * [Image Reference]('http://emag.directindustry.com/issue22/')
 
 ## Pages
 * Left aligned text with a Sans-serif font.
@@ -37,6 +38,9 @@
     1-555-555-5555, hello@arm.com 
 
 Three Images side by side following the text in the Our Services section.
-[Image 1]('')
-[Image 2]('')
-[Image 3]('')
+[Image 1]('https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAT5AAAAJDY0ZGU2MGVmLTYxYjktNGNiMy04ZGM4LWJjOTFhMTU2NDdmNA.jpg')
+   [Image 1 Ref]('https://www.linkedin.com/pulse/how-augmented-reality-transforming-manufacturing-lionel-grealou')
+[Image 2]('http://www.supreality.com/blog/wp-content/uploads/2017/01/l_5808d1ba7c4de.jpg')
+   [Image 2 Ref]('http://www.supreality.com/')
+[Image 3]('http://www.advice-manufacturing.com/images/VR-HVM3.png')
+   [Image 3 Ref]('http://www.advice-manufacturing.com/Virtual-and-Augmented-Reality.html')
