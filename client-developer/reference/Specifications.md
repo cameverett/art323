@@ -8,9 +8,9 @@
 * Text and background color of the body element should match.
 
 ## Header For Each Page
-    * Background Image with 'AR&M' as the text
-    * [Link to Background Image](http://emag.directindustry.com/wp-content/uploads/sites/3/2016/07/DI22-Couv-pour-highlight.jpg)
-    * [Background Image Reference](http://emag.directindustry.com/issue22/)
+* Background Image with 'AR&M' as the text
+* [Link to Background Image](http://emag.directindustry.com/wp-content/uploads/sites/3/2016/07/DI22-Couv-pour-highlight.jpg)
+* [Background Image Reference](http://emag.directindustry.com/issue22/)
 
 ### Home
     Welcome
