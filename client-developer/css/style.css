@@ -34,6 +34,20 @@ li {
     list-style-type: none;
 }
 
+nav {
+    background-color: #c43;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #a21;
+}
+
 .dark {
     background-color: #333;
     color: #fff;
@@ -49,6 +63,18 @@ li {
     color: #333;
 }
 
+.half {
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 .section-header {
     margin: 3px;
 }
@@ -57,7 +83,13 @@ li {
     display: inline;
 }
 
-#content {
-    background-color: #0f0;
+#container {
+    background-image: url('https://3.basecamp.com/3299527/blobs/428e2059b57ca2bd0361b38eda75d0f90010/download/Runner1.jpg');
+    background-size: cover;
+    background-position: top center;
+    width: 1020px;
+}
+
+#main-content {
     width: 960px;
 }
