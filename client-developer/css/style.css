@@ -7,7 +7,7 @@ body {
     text-align: left;
 }
 
-div, footer, section, article {
+div, header, footer, section, article {
     margin: 0 auto;
 }
 
@@ -31,4 +31,24 @@ h3 {
 
 li {
     list-style-type: none;
+}
+
+.section-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.section-red {
+    background-color: #c43;
+    color: #fff;
+}
+
+.section-light {
+    background-color: #fff;
+    color: #333;
+}
+
+#content {
+    background-color: #0f0;
+    width: 960px;
 }
