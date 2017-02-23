@@ -7,8 +7,9 @@ body {
     text-align: left;
 }
 
-div, header, footer, section, article {
+article, aside, div, footer, header, nav, section {
     margin: 0 auto;
+    display: block;
 }
 
 h1 {
@@ -33,19 +34,27 @@ li {
     list-style-type: none;
 }
 
-.section-dark {
+.dark {
     background-color: #333;
     color: #fff;
 }
 
-.section-red {
+.red {
     background-color: #c43;
     color: #fff;
 }
 
-.section-light {
+.light {
     background-color: #fff;
     color: #333;
+}
+
+.section-header {
+    margin: 3px;
+}
+
+#site-header h1 {
+    display: inline;
 }
 
 #content {
