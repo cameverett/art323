@@ -1,7 +1,7 @@
 @import url("reset.css");
 
 body {
-    background-color: #c43;
+    background-color: #a21;
     font-size: 20px;
     font-family: 'PT Sans', 'sans-serif';
     line-height: 1.2em;
@@ -36,18 +36,20 @@ li {
 }
 
 nav {
+    background-color: #a21;
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
 }
 
 nav a {
-    color: #c43;
+    color: #fff;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #a21;
+    color: #a21;
+    background-color: #fff;
 }
 
 .dark {
