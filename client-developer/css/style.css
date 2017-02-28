@@ -155,11 +155,6 @@ p {
     font-weight: bolder;
 }
 
-#site-header-text {
-    width: 800px;
-    float: left;
-}
-
 #site-header h1, p {
     float: left;
     font-style: italic;
@@ -173,12 +168,7 @@ p {
     width: 120px;
 }
 
-#site-logo {
-    width: 220px;
-    float: left;
-}
-
-#site-logo img {
+#site-header img {
     height: 120px;
     width: 120px;
     float: right;
