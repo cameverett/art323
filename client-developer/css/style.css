@@ -1,7 +1,7 @@
 @import url("reset.css");
 
 body {
-    background-color: #a21;
+    background-color: #777;
     font-size: 20px;
     font-family: 'PT Sans', 'sans-serif';
     line-height: 1.2em;
@@ -10,7 +10,6 @@ body {
 
 article, aside, div, footer, header, nav, section {
     margin: 0 auto;
-    display: block;
 }
 
 h1 {
@@ -31,25 +30,68 @@ h3 {
     line-height: 1.4em;
 }
 
+footer {
+    color: #fff;
+    padding: 10px;
+    background-color: #222;
+    font-weight: bold;
+}
+
 li {
     list-style-type: none;
 }
 
 nav {
-    background-color: #a21;
+    background-color: #c43;
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
+p {
+    display: block;
+    line-height: 1.3em;
 }
 
-nav a:hover {
-    color: #a21;
+.carousel {
+    border-radius: 4px 4px 0 0;
+    background-color: #c43;
+}
+
+.carousel-display {
+    height: 280px;
+    width: 1020px;
+}
+
+.carousel-display-img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.carousel-display-text {
+    z-index: 1;
+}
+
+.carousel-title {
+    color: #fff;
+    background-color: #c43;
+    border-radius: 4px 4px 0 0;
+    padding-left: 10px;
+}
+
+.carousel-picker li {
+    text-align: center;
+    color: #fff;
+    background-color: #c43;
+    padding: 15px initial;
+    width: 255px;
+}
+
+.carousel-picker li:hover {
+    color: #c43;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .dark {
@@ -83,17 +125,68 @@ nav a:hover {
     margin: 3px;
 }
 
-#site-header h1 {
+#intro img {
+    max-width: 300px;
+    max-height: 300px;
+    padding-right: 80px;
+}
+
+#main-content section {
+    color: white;
+    margin-bottom: 15px;
+}
+
+#site-header {
+    color: #c43;
+    background-color: #fff;
+    padding: 15px 510px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#site-header h1, p, img {
     display: inline;
 }
 
+#site-header h1 {
+    float: left;
+}
+
+#site-header p, img {
+    float: right;
+}
+
+#site-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#site-nav li {
+    float: left;
+    padding: 7px initial;
+    width: 255px;
+}
+
+#site-nav li:hover {
+    color: #c43;
+    background-color: #fff;
+}
+
+#site-nav li.active {
+    color: #c43;
+    background-color: #fff;
+}
+
 #container {
-    background-image: url('https://3.basecamp.com/3299527/blobs/428e2059b57ca2bd0361b38eda75d0f90010/download/Runner1.jpg');
-    background-size: cover;
+    background-image: url('http://wallpapercave.com/wp/Xbf2gD2.jpg');
     background-position: top center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    min-height: 960px;
+    padding: 30px;
     width: 1020px;
 }
 
-#main-content {
-    width: 960px;
+#service-carousel {
+    width: 100%;
 }
