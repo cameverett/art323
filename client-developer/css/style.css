@@ -106,21 +106,6 @@ p {
     display: none;
 }
 
-.dark {
-    background-color: #333;
-    color: #fff;
-}
-
-.red {
-    background-color: #c43;
-    color: #fff;
-}
-
-.light {
-    background-color: #fff;
-    color: #333;
-}
-
 .half {
     width: 50%;
 }
@@ -138,8 +123,8 @@ p {
 }
 
 #intro img {
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
     padding-right: 80px;
 }
 
@@ -195,12 +180,12 @@ p {
     background-color: #222;
 }
 
+#site-nav li.active:hover {
+    background-color: #333;
+}
+
 #container {
     min-height: 960px;
     padding: 30px;
     width: 1020px;
-}
-
-#service-carousel {
-    width: 100%;
 }
