@@ -35,6 +35,10 @@ h3 {
     line-height: 1.4em;
 }
 
+header {
+    background-color: #fff;
+}
+
 footer {
     color: #fff;
     padding: 10px;
@@ -147,13 +151,13 @@ p {
 #site-header {
     color: #c43;
     background-color: #fff;
-    padding: 15px 510px;
+    width: 1020px;
     text-align: center;
     font-weight: bolder;
 }
 
 #site-header h1, p, img {
-    display: inline;
+    display: inline-box;
 }
 
 #site-header h1 {
@@ -162,6 +166,15 @@ p {
 
 #site-header p, img {
     float: right;
+}
+
+#site-header img {
+    height: 120px;
+    width: 120px;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
 }
 
 #site-nav a {
