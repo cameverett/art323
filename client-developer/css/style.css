@@ -89,7 +89,7 @@ p {
     text-align: center;
     color: #fff;
     background-color: #c43;
-    padding: 15px initial;
+    padding: 15px 0;
     width: 255px;
 }
 
@@ -176,7 +176,7 @@ p {
 
 #site-nav li {
     float: left;
-    padding: 7px initial;
+    padding: 7px 0;
     width: 255px;
 }
 
