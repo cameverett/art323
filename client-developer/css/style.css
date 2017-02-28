@@ -71,11 +71,6 @@ p {
 .carousel-display-img {
     height: 100%;
     width: 100%;
-    z-index: -1;
-}
-
-.carousel-display-text {
-    z-index: 1;
 }
 
 .carousel-title {
