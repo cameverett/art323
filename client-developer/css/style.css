@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-color: #777;
     font-size: 20px;
-    font-family: 'PT Sans', 'sans-serif';
+    font-family: 'Open Sans', 'sans-serif';
     line-height: 1.2em;
     text-align: left;
 }
@@ -152,29 +152,36 @@ p {
     color: #c43;
     background-color: #fff;
     width: 1020px;
-    text-align: center;
     font-weight: bolder;
 }
 
-#site-header h1, p, img {
-    display: inline-box;
-}
-
-#site-header h1 {
+#site-header-text {
+    width: 800px;
     float: left;
 }
 
-#site-header p, img {
-    float: right;
+#site-header h1, p {
+    float: left;
+    font-style: italic;
 }
 
-#site-header img {
+#site-header h1 {
+    width: 680px;
+}
+
+#site-header p {
+    width: 120px;
+}
+
+#site-logo {
+    width: 220px;
+    float: left;
+}
+
+#site-logo img {
     height: 120px;
     width: 120px;
-    max-width: 120px;
-    min-width: 120px;
-    max-height: 120px;
-    min-height: 120px;
+    float: right;
 }
 
 #site-nav a {
@@ -194,8 +201,8 @@ p {
 }
 
 #site-nav li.active {
-    color: #c43;
-    background-color: #fff;
+    color: #fff;
+    background-color: #222;
 }
 
 #container {
