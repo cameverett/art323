@@ -99,6 +99,14 @@ p {
     cursor: pointer;
 }
 
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
 .dark {
     background-color: #333;
     color: #fff;
