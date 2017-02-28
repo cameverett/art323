@@ -35,6 +35,12 @@ h3 {
     line-height: 1.4em;
 }
 
+hr {
+    display: block;
+    margin: 25px auto;
+    border-bottom: 3px solid white;
+}
+
 header {
     background-color: #fff;
 }
@@ -188,4 +194,8 @@ p {
     min-height: 960px;
     padding: 30px;
     width: 1020px;
+}
+
+.info-section div {
+    margin-bottom: 200px;
 }
