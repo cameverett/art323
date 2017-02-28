@@ -1,6 +1,11 @@
 @import url("reset.css");
 
 body {
+    background-image: url('http://wallpapercave.com/wp/Xbf2gD2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-color: #777;
     font-size: 20px;
     font-family: 'PT Sans', 'sans-serif';
@@ -178,10 +183,6 @@ p {
 }
 
 #container {
-    background-image: url('http://wallpapercave.com/wp/Xbf2gD2.jpg');
-    background-position: top center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
     min-height: 960px;
     padding: 30px;
     width: 1020px;
