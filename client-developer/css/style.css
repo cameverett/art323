@@ -69,7 +69,7 @@ p {
     border-left: 2px solid white;
     border-right: 2px solid white;
     width: 325px;
-    height: 624px;
+    height: 636px;
     text-align: center;
 }
 
@@ -87,7 +87,13 @@ p {
     width: 280px;
 }
 
+.company-card .bio {
+    height: 600px;
+}
+
 .company-card .signature {
+    position: relative;
+    bottom: 0;
     margin-top: 10px;
     margin-right: 20px;
     float: right;
@@ -159,7 +165,7 @@ p {
     margin: 10px auto;
 }
 
-#container, #site-header, #site-nav, #intro, #staff {
+#container, #main-content, #site-header, #site-nav, #intro, #staff {
     margin: 0 auto;
 }
 
