@@ -68,6 +68,33 @@ p {
     line-height: 1.3em;
 }
 
+.company-card {
+    margin: 5px 0;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width: 325px;
+    height: 612px;
+    text-align: center;
+}
+
+.company-card h1 {
+    font-size: 28px;
+}
+
+.company-card h2 {
+    font-size: 24px;
+}
+
+.company-card img {
+    height: 280px;
+    width: 280px;
+}
+
+.company-card span {
+    background-color: #0f0;
+    text-align: right;
+}
+
 .carousel {
     border-radius: 4px 4px 0 0;
     background-color: #c43;
@@ -126,6 +153,12 @@ p {
 
 .section-header {
     margin: 3px;
+}
+
+.thumbnail {
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
 }
 
 #intro img {
