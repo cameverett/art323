@@ -13,10 +13,6 @@ body {
     text-align: left;
 }
 
-article, aside, div, footer, header, nav, section {
-    margin: 0 auto;
-}
-
 h1 {
     font-size: 42px;
     font-weight: bold;
@@ -73,7 +69,7 @@ p {
     border-left: 2px solid white;
     border-right: 2px solid white;
     width: 325px;
-    height: 612px;
+    height: 624px;
     text-align: center;
 }
 
@@ -82,6 +78,7 @@ p {
 }
 
 .company-card h2 {
+    font-weight: normal;
     font-size: 24px;
 }
 
@@ -90,9 +87,10 @@ p {
     width: 280px;
 }
 
-.company-card span {
-    background-color: #0f0;
-    text-align: right;
+.company-card .signature {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
 }
 
 .carousel {
@@ -161,6 +159,14 @@ p {
     margin: 10px auto;
 }
 
+#container, #site-header, #site-nav, #intro, #staff {
+    margin: 0 auto;
+}
+
+#intro {
+    margin: 15px auto;
+}
+
 #intro img {
     width: 300px;
     height: 300px;
@@ -180,7 +186,7 @@ p {
 }
 
 #site-header h1, p {
-    float: left;
+    display: inline;
     font-style: italic;
 }
 
