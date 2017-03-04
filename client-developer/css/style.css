@@ -66,8 +66,9 @@ p {
 
 .company-card {
     margin: 5px 0;
+    padding: 0 7.5px;
     border-right: 2px solid white;
-    width: 325px;
+    width: 315px;
     height: 636px;
     text-align: center;
 }
@@ -98,7 +99,6 @@ p {
     position: relative;
     bottom: 0;
     margin-top: 10px;
-    margin-right: 20px;
     float: right;
 }
 
