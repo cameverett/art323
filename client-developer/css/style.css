@@ -38,6 +38,9 @@ hr {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #fff;
 }
 
@@ -189,27 +192,23 @@ p {
 
 #site-header {
     color: #c43;
-    background-color: #fff;
+    height: 80px;
     width: 1020px;
     font-weight: bolder;
 }
 
-#site-header h1, p {
-    display: inline;
-    font-style: italic;
-}
-
 #site-header h1 {
-    width: 680px;
+    display: inline;
 }
 
 #site-header p {
-    width: 120px;
+    font-style: italic;
+    display: inline;
 }
 
 #site-header img {
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     float: right;
 }
 
@@ -241,6 +240,7 @@ p {
 #container {
     min-height: 960px;
     padding: 30px;
+    margin-top: 90px;
     width: 1020px;
 }
 
