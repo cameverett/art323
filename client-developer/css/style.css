@@ -66,11 +66,14 @@ p {
 
 .company-card {
     margin: 5px 0;
-    border-left: 2px solid white;
     border-right: 2px solid white;
     width: 325px;
     height: 636px;
     text-align: center;
+}
+
+#staff > div.company-card:first-child {
+    border-left: 2px solid white;
 }
 
 .company-card h1 {
