@@ -105,29 +105,29 @@ p {
     float: right;
 }
 
-.carousel {
+.brochure {
     border-radius: 4px 4px 0 0;
     background-color: #c43;
 }
 
-.carousel-display {
+.brochure-display {
     height: 280px;
     width: 1020px;
 }
 
-.carousel-display-img {
+.brochure-display-img {
     height: 100%;
     width: 100%;
 }
 
-.carousel-title {
+.brochure-title {
     color: #fff;
     background-color: #222;
     border-radius: 4px 4px 0 0;
     padding-left: 10px;
 }
 
-.carousel-picker li {
+.brochure-picker li {
     text-align: center;
     color: #fff;
     background-color: #c43;
@@ -135,7 +135,7 @@ p {
     width: 255px;
 }
 
-.carousel-picker li:hover {
+.brochure-picker li:hover {
     color: #c43;
     background-color: #fff;
     cursor: pointer;
