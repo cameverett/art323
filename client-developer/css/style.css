@@ -195,6 +195,7 @@ p {
     height: 80px;
     width: 1020px;
     font-weight: bolder;
+    font-style: italic;
 }
 
 #site-header h1 {
@@ -202,7 +203,6 @@ p {
 }
 
 #site-header p {
-    font-style: italic;
     display: inline;
 }
 
