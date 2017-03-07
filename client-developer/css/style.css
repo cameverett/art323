@@ -222,6 +222,16 @@ p {
     margin-bottom: 10px;
 }
 
+#contact-info ul {
+    margin: 0;
+}
+
+#contact-info li {
+    margin-top: 20px;
+    list-style-type: none;
+    margin-left: 0;
+}
+
 #intro-contact p {
     margin-bottom: 10px;
 }
