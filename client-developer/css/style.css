@@ -22,6 +22,7 @@ h1 {
 h2 {
     font-size: 38px;
     font-weight: bold;
+    font-style: italic;
     line-height: 1.4em;
 }
 
@@ -62,7 +63,7 @@ li {
 }
 
 nav {
-    background-color: #c43;
+    background-color: #a20;
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
@@ -112,8 +113,7 @@ p {
 }
 
 .brochure {
-    border-radius: 4px 4px 0 0;
-    background-color: #c43;
+    background-color: #a20;
 }
 
 .brochure-display {
@@ -128,21 +128,20 @@ p {
 
 .brochure-title {
     color: #fff;
-    background-color: #222;
-    border-radius: 4px 4px 0 0;
+    background-color: #a20;
     padding-left: 10px;
 }
 
 .brochure-picker li {
     text-align: center;
     color: #fff;
-    background-color: #c43;
+    background-color: #a20;
     padding: 15px 0;
     width: 255px;
 }
 
 .brochure-picker li:hover {
-    color: #c43;
+    color: #a20;
     background-color: #fff;
     cursor: pointer;
 }
@@ -190,11 +189,13 @@ p {
     background-image: url(http://www.kort.com/Resources/img/services-icons/slider-3.png);
     background-position-x: right;
     background-repeat: no-repeat;
+    min-height: 320px;
     margin: 15px auto;
 }
 
 #intro div {
     width: 640px;
+    padding-bottom: 5px;
 }
 
 #intro h2 {
@@ -212,16 +213,20 @@ p {
     margin-bottom: 10px;
 }
 
+#intro-contact p {
+    margin-bottom: 10px;
+}
+
 #main-content section {
     color: white;
     margin-bottom: 15px;
 }
 
 #site-header {
-    color: #c43;
+    color: #a20;
     height: 80px;
     width: 1020px;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: italic;
 }
 
@@ -251,7 +256,7 @@ p {
 }
 
 #site-nav li:hover {
-    color: #c43;
+    color: #a20;
     background-color: #fff;
 }
 
@@ -272,5 +277,5 @@ p {
 }
 
 .info-section div {
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
