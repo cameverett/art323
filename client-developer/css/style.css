@@ -141,6 +141,11 @@ p {
     cursor: pointer;
 }
 
+.brochure-list-item-active, .brochure-list-item-active:hover {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
 .active {
     display: block;
 }
