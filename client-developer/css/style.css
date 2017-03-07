@@ -31,6 +31,12 @@ h3 {
     line-height: 1.4em;
 }
 
+h4 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
 hr {
     display: block;
     margin: 25px auto;
@@ -189,6 +195,21 @@ p {
 
 #intro div {
     width: 640px;
+}
+
+#intro h2 {
+    margin-bottom: 10px;
+}
+
+#intro ul {
+    margin-left: 20px;
+}
+
+#intro li {
+    font-weight: bold;
+    font-style: italic;
+    list-style-type: disc;
+    margin-bottom: 10px;
 }
 
 #main-content section {
