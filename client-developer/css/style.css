@@ -202,6 +202,14 @@ p {
     margin-bottom: 10px;
 }
 
+#intro h4 {
+    margin-bottom: 10px;
+}
+
+#intro p {
+    margin-bottom: 15px;
+}
+
 #intro ul {
     margin-left: 20px;
 }
