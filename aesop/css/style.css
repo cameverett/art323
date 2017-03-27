@@ -1,0 +1,277 @@
+@import url('reset.css');
+
+html {
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2.8125rem; /* (45px/16) */
+    line-height: 1.3em;
+}
+
+h2 {
+    font-size: 2.625rem; /* (42px/16) */
+    line-height: 1.3em; 
+}
+
+p {
+    font-size: 1.25rem; /* (20px/16) */
+    line-height: 1.3em;
+}
+
+.half {
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+#crab-and-mother {
+    background-color: sandybrown;
+}
+
+#crab-and-mother .tale {
+    color: white;
+    min-height: 300px;
+    width: 80%;
+    max-width: 960px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-image: url('../images/crab-and-mother-bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#crab-and-mother .indent {
+    margin-left: 2em;
+}
+
+#crab-and-mother .double-indent {
+    margin-left: 4em;
+}
+
+#crab-and-mother .tale-passage {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#crab-and-mother .tale h1 {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#crab-and-mother h1 span {
+    display: block;
+}
+
+#crab-and-mother .lesson {
+    color: blue;
+    font-size: 3em;
+    text-align: left;
+    width: 20%;
+}
+
+#crab-and-mother .spacer {
+    display: inline;
+}
+
+#crab-and-mother .lesson p {
+    font-size: 2.5rem; /* (40px/16) */
+    line-height: 1.4em;
+}
+
+#crab-and-mother .lesson span {
+    display: block;
+}
+
+#peacock-and-crane {
+    background: url('../images/seigaiha.png');
+    min-height: 300px;
+}
+
+#peacock-and-crane .header, .tale {
+    float: left;
+}
+
+#peacock-and-crane .header {
+    width: 25%;
+}
+
+#peacock-and-crane .tale {
+    width: 75%;
+}
+
+#peacock-and-crane p {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#woman-and-doctor {
+    background-color: black;
+    color: white;
+}
+
+#woman-and-doctor .emphasis {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 2.5rem;
+    line-height: 1.7em;
+}
+
+#woman-and-doctor .cap {
+    text-transform: uppercase;
+}
+
+#woman-and-doctor .tilt {
+    font-style: italic;
+}
+
+#woman-and-doctor .header {
+    padding: 10px;
+    font-size: 3rem;
+    line-height: 1.2em;
+    font-family: 'Griffy', cursive;
+    font-style: italic;
+    text-align: center;
+}
+
+#woman-and-doctor .first-half, .last-half p {
+    font-family: 'Architects Daughter', cursive;
+    padding: 10px;
+}
+
+#woman-and-doctor .first-half {
+    font-size: 1.7rem;
+    line-height: 1.2em;
+    background-image: url('../images/blurry-room.jpg');
+    background-attachment: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#woman-and-doctor .first-half p {
+    text-indent: 2.5rem;
+    font-size: 1.7rem;
+    column-count: 3;
+    line-height: 1.7em;
+}
+
+#woman-and-doctor .first-half p::first-letter {
+    font-family: 'Griffy', cursive;
+    font-style: bold;
+    font-size: 2.3em;
+}
+
+#woman-and-doctor .character {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+#woman-and-doctor .text-center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#woman-and-doctor .squeeze {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#woman-and-doctor .last-half {
+    background-image: url('../images/empty-room.jpg');
+    background-attachment: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#woman-and-doctor .last-half > p:first-of-type {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+    #woman-and-doctor .first-half p {
+        column-count:2;
+    }
+
+    #woman-and-doctor .resp-break {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 960px), screen and (max-width: 768px) {
+    #crab-and-mother .tale {
+        width: 100%;
+    }
+
+    #crab-and-mother .tale p {
+        width: 100%;
+    }
+
+    #crab-and-mother .lesson {
+        width: 100%;
+        padding: 0 0.25rem;
+        font-size: 1.7em;
+        line-height: 1.2em;
+        text-align: center;
+    }
+
+    #crab-and-mother .lesson span {
+        display: inline;
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+
+    #woman-and-doctor .first-half p {
+        column-count: 1;
+    }
+
+    #woman-and-doctor .first-half .resp-break {
+        display: block;
+        padding-bottom: 0.75em;
+    }
+
+    #woman-and-doctor .last-half > p:first-of-type {
+        font-family: 'Jim Nightshade', cursive;
+        font-size: 2.25rem;
+    }
+
+}
+
+@media screen and (max-width: 414px), screen and (max-width: 667px) {
+    #crab-and-mother .lesson span {
+        display: inline;
+        font-size: 1.5rem;
+        line-height: 1.2em;
+    }
+
+    #crab-and-mother .double-indent {
+        margin-left: 2em;
+    }
+
+    #woman-and-doctor .first-half p {
+        font-size: 1.2rem;
+        line-height: 1.2em;
+        column-count: 1;
+    }
+    #woman-and-doctor .first-half .resp-break {
+        display: block;
+        padding-bottom: 0.75em;
+    }
+
+    #woman-and-doctor .last-half > p:first-of-type {
+        font-family: 'Jim Nightshade', cursive;
+        font-size: 1.8rem;
+    }
+}
