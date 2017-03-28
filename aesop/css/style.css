@@ -145,15 +145,11 @@ p {
 }
 
 #woman-and-doctor .header {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.2em;
     font-family: 'Griffy', cursive;
     font-style: italic;
     text-align: center;
-}
-
-#woman-and-doctor .first-half, .last-half {
-    padding: 15px;
 }
 
 #woman-and-doctor .first-half, .last-half p {
@@ -161,6 +157,7 @@ p {
 }
 
 #woman-and-doctor .first-half {
+    padding: 80px;
     font-size: 1.7rem;
     line-height: 1.2em;
     background-image: url('../images/blurry-room.jpg');
@@ -199,6 +196,7 @@ p {
 }
 
 #woman-and-doctor .last-half {
+    padding: 80px;
     background-image: url('../images/empty-room.jpg');
     background-attachment: center;
     background-size: cover;
