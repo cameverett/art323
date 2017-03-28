@@ -48,11 +48,15 @@ p {
     font-family: 'Gorditas', 'cursive';
     width: 80%;
     text-align: left;
-    background-image: url('../images/crab-and-mother-bg.jpg');
+    background-image: url('../images/crab.jpg');
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+#crab-and-mother .tale p {
+    font-size: 1.5rem;
+    line-height: 2em;
 }
 
 #crab-and-mother .indent, .double-indent {
@@ -73,9 +77,9 @@ p {
 }
 
 #crab-and-mother .tale h1 {
-    padding: 10px;
+    padding: 0.8rem;
     font-family: 'Fugaz One', cursive;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(20, 30, 250, 0.2);
 }
 
 #crab-and-mother h1 span {
@@ -89,10 +93,6 @@ p {
     font-size: 3em;
     text-align: center;
     width: 20%;
-}
-
-#crab-and-mother .spacer {
-    display: inline;
 }
 
 #crab-and-mother .lesson p {
@@ -173,7 +173,7 @@ p {
 #woman-and-doctor .first-half p {
     text-indent: 2.5rem;
     font-size: 1.7rem;
-    column-count: 3;
+    column-count: 2;
     line-height: 1.7em;
 }
 
