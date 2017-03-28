@@ -105,7 +105,6 @@ p {
 
 #peacock-and-crane {
     background: url('../images/swirl_pattern.png');
-    min-height: 300px;
 }
 
 #peacock-and-crane .header, .tale {
@@ -113,16 +112,51 @@ p {
 }
 
 #peacock-and-crane .header {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
     width: 25%;
 }
 
 #peacock-and-crane .tale {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
     width: 75%;
 }
 
 #peacock-and-crane p {
-    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 1.2em;
     text-align: center;
+    padding: 2rem;
+}
+
+#peacock-and-crane .peacock {
+    color: white;
+    background: rgba(250, 25, 25, 0.2);
+    background: -webkit-linear-gradient(left top, rgba(25, 25, 200, 0.5), rgba(250, 25, 25, 0.5));
+    background: -o-linear-gradient(bottom right, rgba(25, 25, 200, 0.5), rgba(250, 25, 25, 0.5));
+    background: -moz-linear-gradient(bottom right, rgba(25, 25, 200, 0.5), rgba(250, 25, 25, 0.5));
+    background: linear-gradient(to bottom right, rgba(25, 25, 200, 0.5), rgba(250, 25, 25, 0.5));
+}
+
+#peacock-and-crane .taunt {
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+#peacock-and-crane .crane {
+    font-style: italic;
+    background: rgba(75, 75, 75, 0.2);
+}
+
+#peacock-and-crane p.crane.taunt {
+    font-family: 'Calligraffitti', cursive;
+    color: darkblue;
+}
+
+#peacock-and-crane p.crane.taunt-2 {
+    font-family: 'Calligraffitti', cursive;
+    color: black;
 }
 
 #woman-and-doctor {
@@ -261,7 +295,7 @@ p {
     #woman-and-doctor .first-half p {
         line-height: 1.2em;
         column-count: 1;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     #woman-and-doctor .character {
@@ -281,6 +315,19 @@ p {
     }
 }
 
+@media screen and (max-width: 768px) {
+    #peacock-and-crane .header, .tale {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #peacock-and-crane .tale {
+        line-height: 1.6rem;
+    }
+}
+
 @media screen and (max-width: 414px), screen and (max-width: 667px) {
     #crab-and-mother .lesson span {
         display: inline;
@@ -288,11 +335,16 @@ p {
         line-height: 1.2em;
     }
 
+    #woman-and-doctor .header {
+        margin: 0 auto;
+        text-align: center;
+    }
+
     #woman-and-doctor .first-half p {
         font-size: 1.2rem;
         line-height: 1.2em;
         column-count: 1;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     #woman-and-doctor .character {
