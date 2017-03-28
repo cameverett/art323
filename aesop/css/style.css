@@ -4,6 +4,10 @@ html {
     font-size: 100%;
 }
 
+div, section {
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 2.8125rem; /* (45px/16) */
     line-height: 1.3em;
@@ -36,15 +40,13 @@ p {
 }
 
 #crab-and-mother {
-    background-color: sandybrown;
+    background-color: burlywood;
 }
 
 #crab-and-mother .tale {
     color: white;
-    min-height: 300px;
+    font-family: 'Gorditas', 'cursive';
     width: 80%;
-    max-width: 960px;
-    padding-bottom: 10px;
     text-align: left;
     background-image: url('../images/crab-and-mother-bg.jpg');
     background-position: top center;
@@ -53,20 +55,26 @@ p {
     background-repeat: no-repeat;
 }
 
+#crab-and-mother .indent, .double-indent {
+    font-size: 0.95em;
+}
+
 #crab-and-mother .indent {
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 #crab-and-mother .double-indent {
-    margin-left: 4em;
+    margin-left: 1.5em;
 }
 
 #crab-and-mother .tale-passage {
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
 }
 
 #crab-and-mother .tale h1 {
+    padding: 10px;
+    font-family: 'Fugaz One', cursive;
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -75,9 +83,11 @@ p {
 }
 
 #crab-and-mother .lesson {
-    color: blue;
+    color: #937d62;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
     font-size: 3em;
-    text-align: left;
+    text-align: center;
     width: 20%;
 }
 
@@ -112,7 +122,6 @@ p {
 }
 
 #peacock-and-crane p {
-    padding-bottom: 20px;
     margin: 0 auto;
     text-align: center;
 }
@@ -137,7 +146,6 @@ p {
 }
 
 #woman-and-doctor .header {
-    padding: 10px;
     font-size: 3rem;
     line-height: 1.2em;
     font-family: 'Griffy', cursive;
@@ -145,9 +153,12 @@ p {
     text-align: center;
 }
 
+#woman-and-doctor .first-half, .last-half {
+    padding: 15px;
+}
+
 #woman-and-doctor .first-half, .last-half p {
     font-family: 'Architects Daughter', cursive;
-    padding: 10px;
 }
 
 #woman-and-doctor .first-half {
@@ -179,7 +190,7 @@ p {
 }
 
 #woman-and-doctor .text-center {
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -195,9 +206,9 @@ p {
     background-repeat: no-repeat;
 }
 
-#woman-and-doctor .last-half > p:first-of-type {
-    font-family: 'Jim Nightshade', cursive;
-    font-size: 3rem;
+#woman-and-doctor .last-half div > p:last-of-type {
+    margin-top: 1.25rem;
+    font-size: 2.5em;
 }
 
 @media screen and (max-width: 1024px) {
@@ -221,8 +232,7 @@ p {
 
     #crab-and-mother .lesson {
         width: 100%;
-        padding: 0 0.25rem;
-        font-size: 1.7em;
+        font-size: 1.7rem;
         line-height: 1.2em;
         text-align: center;
     }
@@ -234,44 +244,47 @@ p {
     }
 
     #woman-and-doctor .first-half p {
+        line-height: 1.2em;
         column-count: 1;
+        margin-bottom: 20px;
+    }
+
+    #woman-and-doctor .character {
+        font-size: 1.75rem;
+    }
+
+    #woman-and-doctor .emphasis {
+        font-size: 1.65rem;
     }
 
     #woman-and-doctor .first-half .resp-break {
         display: block;
-        padding-bottom: 0.75em;
     }
-
-    #woman-and-doctor .last-half > p:first-of-type {
-        font-family: 'Jim Nightshade', cursive;
-        font-size: 2.25rem;
-    }
-
 }
 
 @media screen and (max-width: 414px), screen and (max-width: 667px) {
     #crab-and-mother .lesson span {
         display: inline;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         line-height: 1.2em;
-    }
-
-    #crab-and-mother .double-indent {
-        margin-left: 2em;
     }
 
     #woman-and-doctor .first-half p {
         font-size: 1.2rem;
         line-height: 1.2em;
         column-count: 1;
-    }
-    #woman-and-doctor .first-half .resp-break {
-        display: block;
-        padding-bottom: 0.75em;
+        margin-bottom: 20px;
     }
 
-    #woman-and-doctor .last-half > p:first-of-type {
-        font-family: 'Jim Nightshade', cursive;
-        font-size: 1.8rem;
+    #woman-and-doctor .character {
+        font-size: 1.75rem;
+    }
+
+    #woman-and-doctor .emphasis {
+        font-size: 1.65rem;
+    }
+
+    #woman-and-doctor .first-half .resp-break {
+        display: block;
     }
 }
