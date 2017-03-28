@@ -40,7 +40,7 @@ p {
 }
 
 #crab-and-mother {
-    background-color: burlywood;
+    background-image: url('../images/sandpaper.png');
 }
 
 #crab-and-mother .tale {
@@ -79,7 +79,6 @@ p {
 #crab-and-mother .tale h1 {
     padding: 0.8rem;
     font-family: 'Fugaz One', cursive;
-    background: rgba(20, 30, 250, 0.2);
 }
 
 #crab-and-mother h1 span {
@@ -134,7 +133,7 @@ p {
 #woman-and-doctor .emphasis {
     font-family: 'Jim Nightshade', cursive;
     font-size: 2.5rem;
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
 
 #woman-and-doctor .cap {
