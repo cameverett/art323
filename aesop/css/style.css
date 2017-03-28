@@ -190,6 +190,20 @@ p {
     text-align: center;
 }
 
+#woman-and-doctor .text-left {
+    margin: 10px auto;
+    text-align: left;
+}
+
+#woman-and-doctor .text-right {
+    margin: 10px auto;
+    text-align: right;
+}
+
+#woman-and-doctor .spacer {
+    height: 3.5rem;
+}
+
 #woman-and-doctor .squeeze {
     margin: 0 auto;
     width: 60%;
@@ -256,6 +270,10 @@ p {
 
     #woman-and-doctor .first-half .resp-break {
         display: block;
+    }
+
+    #woman-and-doctor .last-half p {
+        text-align: center;
     }
 }
 
