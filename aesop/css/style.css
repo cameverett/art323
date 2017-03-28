@@ -157,7 +157,7 @@ p {
 }
 
 #woman-and-doctor .first-half {
-    padding: 80px;
+    padding: 3.75rem;
     font-size: 1.7rem;
     line-height: 1.2em;
     background-image: url('../images/blurry-room.jpg');
@@ -225,6 +225,10 @@ p {
 @media screen and (max-width: 1024px) {
     #woman-and-doctor .first-half p {
         column-count:2;
+    }
+
+    #woman-and-doctor .emphasis {
+        font-size: 2.25em;
     }
 
     #woman-and-doctor .resp-break {
